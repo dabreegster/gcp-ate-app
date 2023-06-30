@@ -8,3 +8,7 @@
 # Deploy
 
 `terraform init; terraform plan` and then `terraform apply`
+
+Verify the GCS bucket has the file: `gsutil cat gs://gcp-ate-app-test/index.html`
+
+Verify the GAE works: https://aorta-routes.appspot.com
